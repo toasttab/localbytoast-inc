@@ -1,17 +1,4 @@
 # toasttakeout.com source
 
-publishing this can currently only be done by techops.  Please put in an OPX ticket and link to this readme.
-
-## Publishing changes
-
-```
-oktoast marketing
-aws s3 sync src/ s3://toasttakeout.com/ --delete
-```
-
-## Runbook Info
-
-* Runbook Owner: KFC (Kevin Cormier)
-* Runbook Secondary: Andrew McMillan
-* Other Experts:
-  * None
+publishing to this page can be done by contacting XiaoSong (@xsm on slack)
+or by merging into main, and running the Github action called "Deploy static content to Pages" 
